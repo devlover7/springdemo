@@ -1,7 +1,7 @@
 pipeline {
   agent {
-    docker {
-      image 'abhidock7/springdemo'
+    dockerfile {
+      filename 'Dockerfile'
     }
 
   }
